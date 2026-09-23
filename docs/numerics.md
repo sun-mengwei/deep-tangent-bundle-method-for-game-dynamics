@@ -13,7 +13,7 @@ $$
 
 Its input $B_k$ is either the current particles $X_k$ or immutable initial labels $z$. These choices define different experiments. The physical velocity target is evaluated at the current physical particles in both cases.
 
-For target velocity $v_k\in\mathbb{R}^{N\times d}$, the solver forms $A=J_k/\sqrt N$ and $y=\operatorname{vec}(v_k)/\sqrt N$, computes an SVD, and retains singular values satisfying the strict threshold
+For target velocity $v_k\in\mathbb{R}^{N\times d}$, the solver forms $A=J_k/\sqrt N$ and $y=\mathrm{vec}(v_k)/\sqrt N$, computes an SVD, and retains singular values satisfying the strict threshold
 
 $$
 s_i>\tau s_0.

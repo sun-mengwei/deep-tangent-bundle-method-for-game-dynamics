@@ -61,7 +61,7 @@ The sampled tangent projection is computed using truncated SVD:
 $$
 J_k=D_{\theta_{S_k}}T_{\theta_k}(B_k),
 \qquad
-\alpha_k\approx\operatorname*{arg\,min}_{\alpha}\|J_k\alpha-v_k\|_2^2.
+\alpha_k\approx\mathrm{arg\,min}_{\alpha}\|J_k\alpha-v_k\|_2^2.
 $$
 
 The accumulated particle update is
